@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@media (max-width: 394px) {
+	#homewrapper img {width: 100%; margin-top: 20%;}
+	#loginform {width: 90%; margin-top: 15%;}
+	#time {font-size: 70px !important; margin-top:15% !important;}
+	footer {margin-top: 30%;}
+	#requestwrapper {margin-top: 10%;}
+	.round-button {width: 130px !important; height: 130px !important;}
+	#leave-message {height: 80%; margin-top: 5%;}
+	.dashboard-content {margin-top: 5%;}
+}
+@media (min-width: 395px) and (max-width: 479px) {
+	#homewrapper img {width: 100%; margin-top: 15%;}
+	#loginform {width: 90%; margin-top: 15%;}
+	#time {margin-top: 10%;}
+	#time {font-size: 90px !important;}
+	#requestwrapper {margin-top: 10%;}
+	.dashboard-content {margin-top: 5%;}
+	footer {margin-top: 30%;}
+	#leave-message {height: 80%; margin-top: 5%;}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	#homewrapper img {width: 80%; margin-top: 10%;}
+	#loginform {width: 70%;}
+	.dashboard-content {margin-top: 5%;}
+	#time {font-size: 100px !important;}
+	footer {margin-top: 15%;}
+	#requestwrapper {margin-top: 5%;}
+	#leave-message {height: 80%; margin-top: 5%;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#homewrapper img {width: 80%; margin-top: 10%;}
+	footer {margin-top: 5%;}
+	#requestwrapper {margin-top: 5%;}
+	#leave-message {height: 80%;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#homewrapper img {width: 60%; margin-top: 8%;}
+}
+@media (min-width: 1200px) {
+	#homewrapper img {width: 50%; margin-top: 7%;}
+}

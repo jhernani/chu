@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+/*global*/
+html {
+  height: 100% !important;}
+body {
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  background-color: white !important;}
+input {
+  outline: none !important;}
+button {
+  font-family: robotobold !important;
+  outline: none !important;
+  border-radius: 3px !important;}
+a {
+  text-decoration: none !important;
+  outline: none !important;}
+h2 {
+  text-align: center;
+  color: #c0392b;}
+h3 {
+  margin: 0 !important;}
+table {
+  text-align: center;}
+th {
+  text-align: center !important;}
+footer {
+  text-align: center;}
+textarea {
+  resize: none !important;
+  padding:10px;}
+.full-scale {
+  height: 100%;
+  width: 100%;}
+.full-height {
+  height: 100%;}
+.full-width {
+  width: 100%;}
+.cursor-default {
+  cursor: default !important;}
+.request-approve {
+  color: #016936 !important;}
+.request-deny{
+  color: #B03060 !important;}
+.request-pending{
+  color: #FFD700 !important;}
+.padding-zero{
+  padding:0 !important;
+}
+.margin-zero{
+  margin: 0 !important;
+}
+
+/*bootstrap*/
+.modal {
+    margin-top: 2%;}
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    border-radius: 2px;}
+.dropdown-menu {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    border-radius: 2px;}
+.container {
+  height: 80% !important;}
+.modal a {
+  cursor: pointer !important;}
+.time-comment {
+  display: none;
+}
+
+/*fonts*/
+@font-face {
+   font-family: dinpro;
+   src: url(../fonts/dinpro.ttf);}  
+@font-face {
+   font-family: latobold;
+   src: url(../fonts/latobold.ttf);}
+@font-face {
+   font-family: robotobold;
+   src: url(../fonts/robotobold.ttf);}          
+
+/*login page*/
+#loginform {
+  margin-top: 3%;
+  width: 450px;}
+#loginform input {
+  height: 80px;
+  font-size: 1.5em;
+  background: none;
+  border-left:none;
+  border-right:none;
+  border-top: none;}
+#passwordinput input {
+  border-bottom: none;}
+#remember {
+  margin-top: 5%;}
+#loginbutton {
+  margin-top: 14%;}
+
+/*profile page*/
+/*nav bar style*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);}
+#custom-bootstrap-menu.navbar-default {
+  font-family: dinpro;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-width: 2px;}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #2c3e50;}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(231, 76, 60, 1);
+    background-color: rgba(255, 255, 255, 1);}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(231, 76, 60, 1);
+    background-color: rgba(255, 255, 255, 1);}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(231, 76, 60, 1);
+    background-color: rgba(255, 255, 255, 1);}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(231, 76, 60, 1);
+    background-color: rgba(255, 255, 255, 1);}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ecf0f1;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ecf0f1;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2c3e50;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;}
+#custom-bootstrap-menu {
+  background-color: #2c2c2c; 
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  box-shadow: none;}
+#custom-bootstrap-menu li a {
+  outline: none;}
+.popover {
+  width: 500px;
+  height: 250px;
+  box-shadow: none;}
+#changepasswordinput input {
+  padding-top: 10px;}
+.inputpadding {
+  margin-top: 10px;
+  width: 100%;}
+#profilewrapper {
+  margin-top: 1%;
+  width: 100%;
+  height: 88% !important;
+  display: block;
+  }
+#profilewrapper img {
+  width: 250px;}
+#time {
+  text-align: center;
+  margin-top:.5%;}
+.datedisplay p {
+  text-align: center;
+  padding-top:.9%;
+  font-size: 2em;}
+.round-button {
+  margin-top:3.5%;
+  width:150px; /*same as the height*/
+  height:150px; /*same as the width*/
+  background-color:#e74c3c;
+  padding: 0px;
+  border:5px solid white; /*same colour as the background*/
+  color:#fff;
+  font-size:3.5em;
+  outline:none;
+  /*set the border-radius at half the size of the width and height*/
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 75px;
+  box-shadow: 
+    0 0 0 5px hsla(6, 78%, 60%, 1);
+  /*give the button a small drop shadow*/
+  }
+  /***NOW STYLE THE BUTTON'S HOVER STATE***/
+  input.round-button:hover{
+  background: #2c3e50;}
+
+/*view recent*/
+#totalhours {
+  text-align: right;
+  padding-right: 20px;}
+
+/*dashboard*/
+#dashboardwrapper{
+  height: 88% !important;
+  width: 100%;
+  display: none;}
+.dashboard-table {
+  margin-top: 5%;
+  height: 100% !important;
+  font-size: 1em;}
+#profile-photo label {
+  width: 100%;
+  border-radius: 0 !important;
+}
+.dashboard-vertical-menu {
+}
+.dashboard-request {
+  height: 100%;
+  display: block;
+}
+.date-filter {
+  margin-top: 3%;
+}
+#date-filter-header {
+  background-color:#4aa3df; 
+  color:white;
+}
+.dashboard-logs {
+  display: none;
+  height: 100%;
+}
+
+/*request dashboard*/
+.request-dashboard {
+  display: block;
+}
+.request-type-form {
+  margin-top: 3%;
+}
+#leavewrapper {
+  height: 100% !important;
+  width: 100%;
+  display: block;}
+#leavewrapper textarea {
+  margin-top: 5%;
+  margin-bottom: 5%;}
+#leave-button {
+  margin-top: 10%;}
+#requestwrapper {
+  height: 95% !important;
+  overflow: auto;}
+#reqest-header{
+  color: #f1c40f;}
+#request-feed {
+  padding: 15px;}
+.ui.feed>.event>.label {
+  width: 5em !important;}
+.request-name-color {
+  color: #3498db;
+}
+nav .badge {
+  display: block;
+  position: absolute;
+  top: -12px;
+  right: 3px;
+  line-height: 16px;
+  height: 16px;
+  padding: 0 5px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);}
+.badge {
+  background-color: #2ecc71 !important;}
+.row .time {
+  padding-top: 11% !important;}
+.overtime-time-select {
+  display: none;
+}
+
+/*settings*/
+#settingswrapper {
+  display: none;}
+.personal-information th{
+  color: white !important;
+  background-color: #3498db !important;}
+.personal-information .personal-information-hover:hover {
+   background-color: #ecf0f1;
+   cursor: pointer;}
+.personal-information .change-password-hover:hover {
+   background-color: #ecf0f1;
+   cursor: pointer;}
+.personal-information-edit {
+  display: none;
+}
+.change-password {
+  display: none;
+}
+
+/*notification*/
+.dropdown {
+    display:inline-block;
+    margin-left:20px;
+    padding:10px;}
+.glyphicon-bell {
+    font-size:1.5rem;}
+.notifications {
+   min-width:420px; }
+  .notifications-wrapper {
+     overflow:auto;
+     padding-top: 0 !important;
+     padding: 2%;
+      max-height:450px;}
+.menu-title {
+  color:#2c3e50;
+  font-size:1em;
+  display:inline-block;}
+.glyphicon-circle-arrow-right {
+      margin-left:10px;     
+   }
+.notification-heading, .notification-footer  {
+  padding:2px 10px;}    
+.dropdown-menu.divider {
+  margin:5px 0;          }
+.item-title {
+ font-size:1.3rem;
+ color:#34495e;}
+.notifications a.content {
+ text-decoration:none;
+ background:#ccc;}  
+.notification-item {
+ padding:10px;
+ margin:5px;
+ background:#ecf0f1;
+ border-radius:4px;}
+ .notifications-margin{
+  margin-top: 4% !important;
+}
+.notifications-wrapper .ui.feed {
+  margin:0 !important;
+}
